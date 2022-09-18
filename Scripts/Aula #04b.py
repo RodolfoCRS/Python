@@ -1,0 +1,5 @@
+print (' ====== DESAFIO 02 ======')
+day = input('Day = ')
+month = input('Month = ')
+year = input('Year = ')
+print ('You born on', month, day, 'in', year )
