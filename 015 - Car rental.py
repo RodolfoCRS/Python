@@ -4,3 +4,4 @@ days = days * 60
 km = km * 0.15
 total = days + km
 print('You must pay ${:.2f}'.format(total))
+
