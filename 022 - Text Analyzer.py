@@ -11,4 +11,3 @@ for i in cutname:
 print(f'The full name has {count} characters ')
 namesplit = name.split()
 print(f'The first name has {len(namesplit[0])} characters')
-
