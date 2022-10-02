@@ -1,8 +1,11 @@
+from datetime import date
 print('-=-'*20)
 print(' '*20 + 'Classifying athletes')
 print('-=-'*20)
 
-age = int(input('Enter with the age of the athlete: '))
+yb = int(input('Enter with the year of birth of the athlete: '))
+age = date.today().year - yb
+print('The athlete is {} years old.'.format(age))
 if age <= 9:
     print('This athlete is classified as a child.')
 elif 9 < age <= 14:
