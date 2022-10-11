@@ -8,4 +8,4 @@ if estudantes['media'] >= 7:
 else:
      estudantes['Situação'] = 'Reprovado'
 
-print(f"O aluno {estudantes['nome']} esta {estudantes['Situação']}")   
+print(f"O aluno {estudantes['nome']} esta {estudantes['Situaçã']}")   
