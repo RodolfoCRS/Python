@@ -7,3 +7,4 @@ if a < b+c and b < a+c and c < b+a:
 else:
     print('You\033[1;31;40m cant \033[mform a triangle with this sizes of side.')
 
+loren
